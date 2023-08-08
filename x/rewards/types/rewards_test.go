@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v2/e2e/testing"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 func TestBlockRewardsValidate(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v2/x/tracking/types"
 )
 
 var _ types.QueryServer = &QueryServer{}

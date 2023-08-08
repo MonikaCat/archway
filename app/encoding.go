@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/cosmos/cosmos-sdk/std"
 
-	"github.com/archway-network/archway/app/params"
+	"github.com/MonikaCat/archway/v2/app/params"
 )
 
 // MakeEncodingConfig creates a new EncodingConfig with all modules registered

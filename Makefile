@@ -13,7 +13,7 @@ GORELEASER_VERSION = v1.19.5
 DOCKER := $(shell which docker)
 BUF_IMAGE=bufbuild/buf@sha256:9dc5d6645f8f8a2d5aaafc8957fbbb5ea64eada98a84cb09654e8f49d6f73b3e
 DOCKER_BUF := $(DOCKER) run --rm -v $(CURDIR):/workspace --workdir /workspace $(BUF_IMAGE)
-HTTPS_GIT := https://github.com/archway-network/archway.git
+HTTPS_GIT := https://github.com/MonikaCat/archway/v2.git
 CURRENT_DIR := $(shell pwd)
 
 # library versions
@@ -68,7 +68,7 @@ ldflags = -X github.com/cosmos/cosmos-sdk/version.Name=archwayd \
 		  -X github.com/cosmos/cosmos-sdk/version.AppName=archwayd \
 		  -X github.com/cosmos/cosmos-sdk/version.Version=$(VERSION) \
 		  -X github.com/cosmos/cosmos-sdk/version.Commit=$(COMMIT) \
-		  -X github.com/archway-network/archwayd/app.Bech32Prefix=archway \
+		  -X github.com/MonikaCat/archway/v2d/app.Bech32Prefix=archway \
 		  -X "github.com/cosmos/cosmos-sdk/version.BuildTags=$(build_tags_comma_sep)"
 
 ifeq ($(WITH_CLEVELDB),yes)
@@ -173,7 +173,7 @@ lint:
 format:
 	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs gofmt -w -s
 	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs misspell -w
-	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs goimports -w -local github.com/archway-network/archwayd
+	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs goimports -w -local github.com/MonikaCat/archway/v2d
 
 
 ###############################################################################
@@ -217,8 +217,8 @@ docker-build:
 		-e RELEASE=$(RELEASE) \
 		-e GITHUB_TOKEN="$(GITHUB_TOKEN)" \
 		-v /var/run/docker.sock:/var/run/docker.sock \
-		-v `pwd`:/go/src/github.com/archway-network/archway \
-		-w /go/src/github.com/archway-network/archway \
+		-v `pwd`:/go/src/github.com/MonikaCat/archway/v2 \
+		-w /go/src/github.com/MonikaCat/archway/v2 \
 		goreleaser/goreleaser-cross:$(GORELEASER_VERSION) \
 		--clean
 		--snapshot
@@ -229,8 +229,8 @@ release-dryrun:
 		-e LIBWASM_VERSION=$(LIBWASM_VERSION) \
 		-e RELEASE=$(RELEASE) \
 		-v /var/run/docker.sock:/var/run/docker.sock \
-		-v `pwd`:/go/src/github.com/archway-network/archway \
-		-w /go/src/github.com/archway-network/archway \
+		-v `pwd`:/go/src/github.com/MonikaCat/archway/v2 \
+		-w /go/src/github.com/MonikaCat/archway/v2 \
 		goreleaser/goreleaser-cross:$(GORELEASER_VERSION) \
 		--skip-publish \
 		--clean \
@@ -244,8 +244,8 @@ release:
 		-e GITHUB_TOKEN="$(GITHUB_TOKEN)" \
 		-v $(HOME)/.docker/config.json:/root/.docker/config.json \
 		-v /var/run/docker.sock:/var/run/docker.sock \
-		-v `pwd`:/go/src/github.com/archway-network/archway \
-		-w /go/src/github.com/archway-network/archway \
+		-v `pwd`:/go/src/github.com/MonikaCat/archway/v2 \
+		-w /go/src/github.com/MonikaCat/archway/v2 \
 		goreleaser/goreleaser-cross:$(GORELEASER_VERSION) \
 		--clean \
 		--skip-validate=$(GORELEASER_SKIP_VALIDATE)

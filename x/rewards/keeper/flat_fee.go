@@ -4,7 +4,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkErrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 // SetFlatFee checks if a contract has metadata set and stores the given flat fee to be associated with that contract

@@ -1,6 +1,6 @@
 package app
 
-import "github.com/archway-network/archway/app/upgrades"
+import "github.com/MonikaCat/archway/v2/app/upgrades"
 
 // AddUpgradeHandler is used only for testing, and compiles as a function only in testing.
 // We cannot add it to app_upgrades_test.go to avoid import cycles.

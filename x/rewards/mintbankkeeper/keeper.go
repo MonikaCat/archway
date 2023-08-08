@@ -7,8 +7,8 @@ import (
 	authTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	mintTypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 
-	"github.com/archway-network/archway/pkg"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/pkg"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 var _ mintTypes.BankKeeper = Keeper{}

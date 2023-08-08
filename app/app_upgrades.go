@@ -5,10 +5,10 @@ import (
 
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/archway-network/archway/app/upgrades"
-	upgrade_0_6 "github.com/archway-network/archway/app/upgrades/06"
-	upgrade1_0_0_rc_4 "github.com/archway-network/archway/app/upgrades/1_0_0_rc_4"
-	upgrade2_0_0 "github.com/archway-network/archway/app/upgrades/2_0_0"
+	"github.com/MonikaCat/archway/v2/app/upgrades"
+	upgrade_0_6 "github.com/MonikaCat/archway/v2/app/upgrades/06"
+	upgrade1_0_0_rc_4 "github.com/MonikaCat/archway/v2/app/upgrades/1_0_0_rc_4"
+	upgrade2_0_0 "github.com/MonikaCat/archway/v2/app/upgrades/2_0_0"
 )
 
 // UPGRADES

@@ -7,8 +7,8 @@ import (
 	mintTypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	"github.com/stretchr/testify/suite"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v2/e2e/testing"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 type KeeperTestSuite struct {

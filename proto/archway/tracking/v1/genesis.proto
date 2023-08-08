@@ -1,7 +1,7 @@
 syntax = "proto3";
 package archway.tracking.v1;
 
-option go_package = "github.com/archway-network/archway/x/tracking/types";
+option go_package = "github.com/MonikaCat/archway/v2/x/tracking/types";
 
 import "gogoproto/gogo.proto";
 import "archway/tracking/v1/tracking.proto";

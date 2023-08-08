@@ -35,8 +35,8 @@ import (
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
 
-	"github.com/archway-network/archway/app"
-	"github.com/archway-network/archway/app/params"
+	"github.com/MonikaCat/archway/v2/app"
+	"github.com/MonikaCat/archway/v2/app/params"
 )
 
 // NewRootCmd creates a new root command for archwayd. It is called once in the

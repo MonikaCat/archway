@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/archway-network/archway/wasmbinding/rewards/types"
+	"github.com/MonikaCat/archway/v2/wasmbinding/rewards/types"
 )
 
 func TestMsgValidate(t *testing.T) {

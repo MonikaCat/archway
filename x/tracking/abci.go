@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/archway-network/archway/x/tracking/keeper"
-	"github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v2/x/tracking/keeper"
+	"github.com/MonikaCat/archway/v2/x/tracking/types"
 )
 
 // EndBlocker modifies tracked transactions using tracked contract operations.

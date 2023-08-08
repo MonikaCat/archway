@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/archway-network/archway/x/genmsg"
+	"github.com/MonikaCat/archway/v2/x/genmsg"
 
 	wasmdKeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 	wasmdTypes "github.com/CosmWasm/wasmd/x/wasm/types"
@@ -108,20 +108,20 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/archway-network/archway/wasmbinding"
-	"github.com/archway-network/archway/x/rewards"
-	rewardsKeeper "github.com/archway-network/archway/x/rewards/keeper"
-	"github.com/archway-network/archway/x/rewards/mintbankkeeper"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
-	"github.com/archway-network/archway/x/tracking"
-	trackingKeeper "github.com/archway-network/archway/x/tracking/keeper"
-	trackingTypes "github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v2/wasmbinding"
+	"github.com/MonikaCat/archway/v2/x/rewards"
+	rewardsKeeper "github.com/MonikaCat/archway/v2/x/rewards/keeper"
+	"github.com/MonikaCat/archway/v2/x/rewards/mintbankkeeper"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/x/tracking"
+	trackingKeeper "github.com/MonikaCat/archway/v2/x/tracking/keeper"
+	trackingTypes "github.com/MonikaCat/archway/v2/x/tracking/types"
 
 	"github.com/CosmWasm/wasmd/x/wasm"
 	wasmclient "github.com/CosmWasm/wasmd/x/wasm/client"
 
-	archwayappparams "github.com/archway-network/archway/app/params"
-	archway "github.com/archway-network/archway/types"
+	archwayappparams "github.com/MonikaCat/archway/v2/app/params"
+	archway "github.com/MonikaCat/archway/v2/types"
 
 	// unnamed import of statik for swagger UI support
 	_ "github.com/cosmos/cosmos-sdk/client/docs/statik"

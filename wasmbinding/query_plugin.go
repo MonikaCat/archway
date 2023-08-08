@@ -8,9 +8,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkErrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/archway-network/archway/wasmbinding/gov"
-	"github.com/archway-network/archway/wasmbinding/rewards"
-	"github.com/archway-network/archway/wasmbinding/types"
+	"github.com/MonikaCat/archway/v2/wasmbinding/gov"
+	"github.com/MonikaCat/archway/v2/wasmbinding/rewards"
+	"github.com/MonikaCat/archway/v2/wasmbinding/types"
 )
 
 // QueryDispatcher dispatches custom WASM messages.

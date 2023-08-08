@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/archway-network/archway/x/rewards/keeper"
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/x/rewards/keeper"
+	"github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 // EndBlocker calculates and distributes dApp rewards for the current block updating the treasury.

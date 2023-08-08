@@ -8,7 +8,7 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	"google.golang.org/grpc"
 
-	"github.com/archway-network/archway/app"
+	"github.com/MonikaCat/archway/v2/app"
 )
 
 var _ grpc.ClientConnInterface = (*grpcClient)(nil)

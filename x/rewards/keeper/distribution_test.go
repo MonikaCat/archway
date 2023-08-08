@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/pkg/testutils"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v2/e2e/testing"
+	"github.com/MonikaCat/archway/v2/pkg/testutils"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 // TestRewardsKeeper_Distribution tests rewards distribution for a single block with different edge cases.

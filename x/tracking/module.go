@@ -20,9 +20,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/archway-network/archway/x/tracking/client/cli"
-	"github.com/archway-network/archway/x/tracking/keeper"
-	"github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v2/x/tracking/client/cli"
+	"github.com/MonikaCat/archway/v2/x/tracking/keeper"
+	"github.com/MonikaCat/archway/v2/x/tracking/types"
 )
 
 var (

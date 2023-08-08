@@ -15,7 +15,7 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	v1 "github.com/archway-network/archway/x/genmsg/v1"
+	v1 "github.com/MonikaCat/archway/v2/x/genmsg/v1"
 )
 
 const (

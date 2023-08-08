@@ -6,10 +6,10 @@ import (
 	mintTypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	archway "github.com/archway-network/archway/types"
+	archway "github.com/MonikaCat/archway/v2/types"
 
-	"github.com/archway-network/archway/app"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/app"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 // chainConfig is a TestChain config which can be adjusted using options.

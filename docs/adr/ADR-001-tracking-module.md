@@ -6,7 +6,7 @@ Already implemented.
 
 ## Abstract
 
-We propose a new module called `x/tracking` that leverages our fork of [x/wasm](https://github.com/archway-network/archway-wasmd),
+We propose a new module called `x/tracking` that leverages our fork of [x/wasm](https://github.com/MonikaCat/archway/v2-wasmd),
 which has contract gas logging capabilities.
 
 The module records contract gas usage on state, associating gas usage to the block and the tx in which the computational

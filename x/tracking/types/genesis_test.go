@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	trackingTypes "github.com/archway-network/archway/x/tracking/types"
+	e2eTesting "github.com/MonikaCat/archway/v2/e2e/testing"
+	trackingTypes "github.com/MonikaCat/archway/v2/x/tracking/types"
 )
 
 func TestTrackingGenesisStateValidation(t *testing.T) {

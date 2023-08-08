@@ -3,8 +3,8 @@ package keeper_test
 import (
 	wasmTypes "github.com/CosmWasm/wasmd/x/wasm/types"
 
-	"github.com/archway-network/archway/pkg/testutils"
-	"github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v2/pkg/testutils"
+	"github.com/MonikaCat/archway/v2/x/tracking/types"
 )
 
 // TestStates tests TxInfo and ContractOperationInfo state storages.

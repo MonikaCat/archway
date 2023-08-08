@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 	authTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/archway-network/archway/pkg"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/pkg"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 var _ sdk.AnteDecorator = DeductFeeDecorator{}

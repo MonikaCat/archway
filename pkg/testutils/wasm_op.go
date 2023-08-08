@@ -5,7 +5,7 @@ import (
 
 	wasmdTypes "github.com/CosmWasm/wasmd/x/wasm/types"
 
-	trackingTypes "github.com/archway-network/archway/x/tracking/types"
+	trackingTypes "github.com/MonikaCat/archway/v2/x/tracking/types"
 )
 
 var allContractOperationTypes = []uint64{

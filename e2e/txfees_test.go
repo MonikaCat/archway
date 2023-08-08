@@ -12,8 +12,8 @@ import (
 
 	voterTypes "github.com/archway-network/voter/src/types"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v2/e2e/testing"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 // TestTxFees ensures that a transaction fees paid are less than rewards received.

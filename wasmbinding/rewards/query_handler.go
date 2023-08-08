@@ -7,8 +7,8 @@ import (
 	sdkErrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/archway-network/archway/wasmbinding/rewards/types"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/wasmbinding/rewards/types"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 // KeeperReaderExpected defines the x/rewards keeper expected read operations.

@@ -96,7 +96,7 @@ dockers:
       - "--label=org.opencontainers.image.revision={{.FullCommit}}"
       - "--label=org.opencontainers.image.version=v{{.Version}}"
       - "--label=org.opencontainers.image.url=https://archway.io"
-      - "--label=org.opencontainers.image.source=https://github.com/archway-network/archway"
+      - "--label=org.opencontainers.image.source=https://github.com/MonikaCat/archway/v2"
       - "--label=org.opencontainers.image.licenses=Apache-2.0"
   - use: buildx
     goos: linux
@@ -112,7 +112,7 @@ dockers:
       - "--label=org.opencontainers.image.revision={{.FullCommit}}"
       - "--label=org.opencontainers.image.version=v{{.Version}}"
       - "--label=org.opencontainers.image.url=https://archway.io"
-      - "--label=org.opencontainers.image.source=https://github.com/archway-network/archway"
+      - "--label=org.opencontainers.image.source=https://github.com/MonikaCat/archway/v2"
       - "--label=org.opencontainers.image.licenses=Apache-2.0"
   - use: buildx
     goos: linux
@@ -129,7 +129,7 @@ dockers:
       - "--label=org.opencontainers.image.revision={{.FullCommit}}"
       - "--label=org.opencontainers.image.version=v{{.Version}}"
       - "--label=org.opencontainers.image.url=https://archway.io"
-      - "--label=org.opencontainers.image.source=https://github.com/archway-network/archway"
+      - "--label=org.opencontainers.image.source=https://github.com/MonikaCat/archway/v2"
       - "--label=org.opencontainers.image.licenses=Apache-2.0"
   - use: buildx
     goos: linux
@@ -146,7 +146,7 @@ dockers:
       - "--label=org.opencontainers.image.revision={{.FullCommit}}"
       - "--label=org.opencontainers.image.version=v{{.Version}}"
       - "--label=org.opencontainers.image.url=https://archway.io"
-      - "--label=org.opencontainers.image.source=https://github.com/archway-network/archway"
+      - "--label=org.opencontainers.image.source=https://github.com/MonikaCat/archway/v2"
       - "--label=org.opencontainers.image.licenses=Apache-2.0"
 docker_manifests:
   - name_template: 'ghcr.io/archway-network/{{ .ProjectName }}d:{{if eq .Env.RELEASE "true" }}v{{ .Version }}{{else}}{{ .ShortCommit }}{{end}}'

@@ -16,7 +16,7 @@ import (
 	icahosttypes "github.com/cosmos/ibc-go/v4/modules/apps/27-interchain-accounts/host/types"
 	icatypes "github.com/cosmos/ibc-go/v4/modules/apps/27-interchain-accounts/types"
 
-	"github.com/archway-network/archway/app/upgrades"
+	"github.com/MonikaCat/archway/v2/app/upgrades"
 )
 
 const Name = "v2.0.0"

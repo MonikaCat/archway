@@ -21,9 +21,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/archway-network/archway/x/rewards/client/cli"
-	"github.com/archway-network/archway/x/rewards/keeper"
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/x/rewards/client/cli"
+	"github.com/MonikaCat/archway/v2/x/rewards/keeper"
+	"github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 var (

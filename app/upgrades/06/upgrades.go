@@ -7,7 +7,7 @@ import (
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	ibcfeetypes "github.com/cosmos/ibc-go/v4/modules/apps/29-fee/types"
 
-	"github.com/archway-network/archway/app/upgrades"
+	"github.com/MonikaCat/archway/v2/app/upgrades"
 )
 
 const Name = "v0.6.0"

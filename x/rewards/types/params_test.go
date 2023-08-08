@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 func TestRewardsParamsValidate(t *testing.T) {

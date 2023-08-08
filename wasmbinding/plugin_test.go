@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/pkg/testutils"
-	"github.com/archway-network/archway/wasmbinding"
+	e2eTesting "github.com/MonikaCat/archway/v2/e2e/testing"
+	"github.com/MonikaCat/archway/v2/pkg/testutils"
+	"github.com/MonikaCat/archway/v2/wasmbinding"
 )
 
 // TestWASMBindingPlugins tests common failure scenarios for custom querier and msg handler plugins.

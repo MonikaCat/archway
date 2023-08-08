@@ -6,7 +6,7 @@ import (
 	wasmTypes "github.com/CosmWasm/wasmd/x/wasm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v2/x/tracking/types"
 )
 
 var _ wasmTypes.ContractGasProcessor = &Keeper{}

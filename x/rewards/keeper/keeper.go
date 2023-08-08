@@ -10,8 +10,8 @@ import (
 	paramTypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/archway-network/archway/x/rewards/types"
-	trackingTypes "github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v2/x/rewards/types"
+	trackingTypes "github.com/MonikaCat/archway/v2/x/tracking/types"
 )
 
 // ContractInfoReaderExpected defines the interface for the x/wasmd module dependency.

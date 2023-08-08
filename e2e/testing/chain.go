@@ -30,7 +30,7 @@ import (
 	tmTypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/archway-network/archway/app"
+	"github.com/MonikaCat/archway/v2/app"
 )
 
 var TestAccountAddr = sdk.AccAddress("test")

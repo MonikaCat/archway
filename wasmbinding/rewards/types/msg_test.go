@@ -6,7 +6,7 @@ import (
 	wasmVmTypes "github.com/CosmWasm/wasmvm/types"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/archway-network/archway/pkg"
+	"github.com/MonikaCat/archway/v2/pkg"
 )
 
 func TestUpdateContractMetadataRequestValidate(t *testing.T) {

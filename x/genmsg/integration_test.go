@@ -9,10 +9,10 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/archway-network/archway/app"
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/x/genmsg"
-	v1 "github.com/archway-network/archway/x/genmsg/v1"
+	"github.com/MonikaCat/archway/v2/app"
+	e2eTesting "github.com/MonikaCat/archway/v2/e2e/testing"
+	"github.com/MonikaCat/archway/v2/x/genmsg"
+	v1 "github.com/MonikaCat/archway/v2/x/genmsg/v1"
 )
 
 func TestIntegration(t *testing.T) {

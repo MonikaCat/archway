@@ -1,4 +1,4 @@
-module github.com/archway-network/archway
+module github.com/MonikaCat/archway/v2
 
 go 1.19
 

@@ -5,7 +5,7 @@ import (
 	storeTypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 // MinConsFeeState provides access to the Minimum Consensus Fee object storage operations.

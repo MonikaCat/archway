@@ -20,11 +20,11 @@ import (
 	voterState "github.com/archway-network/voter/src/state"
 	voterTypes "github.com/archway-network/voter/src/types"
 
-	"github.com/archway-network/archway/wasmbinding/pkg"
-	rewardsWbTypes "github.com/archway-network/archway/wasmbinding/rewards/types"
+	"github.com/MonikaCat/archway/v2/wasmbinding/pkg"
+	rewardsWbTypes "github.com/MonikaCat/archway/v2/wasmbinding/rewards/types"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v2/e2e/testing"
+	rewardsTypes "github.com/MonikaCat/archway/v2/x/rewards/types"
 )
 
 // Voter contract related helpers.
