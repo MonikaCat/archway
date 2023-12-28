@@ -1,7 +1,7 @@
 syntax = "proto3";
 package archway.rewards.v1;
 
-option go_package = "github.com/archway-network/archway/x/rewards/types";
+option go_package = "github.com/MonikaCat/archway/v5/x/rewards/types";
 
 import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";

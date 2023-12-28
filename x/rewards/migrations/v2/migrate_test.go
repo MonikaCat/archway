@@ -9,10 +9,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
 
-	"github.com/archway-network/archway/x/rewards"
-	"github.com/archway-network/archway/x/rewards/exported"
-	v2 "github.com/archway-network/archway/x/rewards/migrations/v2"
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/x/rewards"
+	"github.com/MonikaCat/archway/v5/x/rewards/exported"
+	v2 "github.com/MonikaCat/archway/v5/x/rewards/migrations/v2"
+	"github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 type mockSubspace struct {

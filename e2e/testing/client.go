@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"google.golang.org/grpc"
 
-	"github.com/archway-network/archway/app"
+	"github.com/MonikaCat/archway/v5/app"
 )
 
 var _ grpc.ClientConnInterface = (*grpcClient)(nil)

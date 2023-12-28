@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	govTypes "github.com/archway-network/archway/wasmbinding/gov/types"
-	rewardsTypes "github.com/archway-network/archway/wasmbinding/rewards/types"
+	govTypes "github.com/MonikaCat/archway/v5/wasmbinding/gov/types"
+	rewardsTypes "github.com/MonikaCat/archway/v5/wasmbinding/rewards/types"
 )
 
 func TestQueryValidate(t *testing.T) {

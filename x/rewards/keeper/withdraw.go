@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // WithdrawRewardsByRecordsLimit performs the rewards distribution for the given rewards address and the number of record to use.

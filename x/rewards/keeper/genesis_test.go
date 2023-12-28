@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	"github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // TestGenesisImportExport check genesis import/export.

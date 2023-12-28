@@ -9,8 +9,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/archway-network/archway/app/keepers"
-	"github.com/archway-network/archway/app/upgrades"
+	"github.com/MonikaCat/archway/v5/app/keepers"
+	"github.com/MonikaCat/archway/v5/app/upgrades"
 )
 
 const Name = "v4.0.2"

@@ -1,4 +1,4 @@
-module github.com/archway-network/archway/interchaintest
+module github.com/MonikaCat/archway/v5/interchaintest
 
 go 1.20
 

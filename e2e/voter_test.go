@@ -11,8 +11,8 @@ import (
 	sdkErrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/archway-network/archway/pkg"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/pkg"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 
 	cwStd "github.com/CosmWasm/cosmwasm-go/std"
 	cwTypes "github.com/CosmWasm/cosmwasm-go/std/types"
@@ -27,7 +27,7 @@ import (
 	voterState "github.com/archway-network/voter/src/state"
 	voterTypes "github.com/archway-network/voter/src/types"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
 )
 
 const (

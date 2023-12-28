@@ -7,7 +7,7 @@ import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/archway-network/archway/x/genmsg/types"
+	"github.com/MonikaCat/archway/v5/x/genmsg/types"
 )
 
 func anyToMsg(ir codectypes.InterfaceRegistry, anyMsg *codectypes.Any) (sdk.Msg, error) {

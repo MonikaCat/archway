@@ -15,5 +15,5 @@ done
 cd ..
 
 # move proto files to the right places
-cp -r github.com/archway-network/archway/* ./
+cp -r github.com/MonikaCat/archway/v5/* ./
 rm -rf github.com

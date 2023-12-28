@@ -32,7 +32,7 @@ import (
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
 	"github.com/stretchr/testify/require"
 
-	"github.com/archway-network/archway/app"
+	"github.com/MonikaCat/archway/v5/app"
 )
 
 var TestAccountAddr = sdk.AccAddress("test")

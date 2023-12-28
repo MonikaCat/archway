@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
 )
 
 type KeeperTestSuite struct {

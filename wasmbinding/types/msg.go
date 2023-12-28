@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	rewardsTypes "github.com/archway-network/archway/wasmbinding/rewards/types"
+	rewardsTypes "github.com/MonikaCat/archway/v5/wasmbinding/rewards/types"
 )
 
 // Msg is a container for custom WASM message operations in all of Archway's custom modules.

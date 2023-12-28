@@ -20,9 +20,9 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/archway-network/archway/x/rewards/client/cli"
-	"github.com/archway-network/archway/x/rewards/keeper"
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/x/rewards/client/cli"
+	"github.com/MonikaCat/archway/v5/x/rewards/keeper"
+	"github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 var (

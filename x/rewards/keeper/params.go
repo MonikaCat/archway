@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // InflationRewardsRatio return inflation rewards params ratio.

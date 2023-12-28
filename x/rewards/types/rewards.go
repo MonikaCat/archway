@@ -8,7 +8,7 @@ import (
 	sdkErrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/archway-network/archway/pkg"
+	"github.com/MonikaCat/archway/v5/pkg"
 )
 
 // HasRewards returns true if the block rewards have been set.

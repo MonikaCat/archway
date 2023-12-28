@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	govTypes "github.com/archway-network/archway/wasmbinding/gov/types"
-	rewardsTypes "github.com/archway-network/archway/wasmbinding/rewards/types"
+	govTypes "github.com/MonikaCat/archway/v5/wasmbinding/gov/types"
+	rewardsTypes "github.com/MonikaCat/archway/v5/wasmbinding/rewards/types"
 )
 
 // Query is a container for custom WASM queries (one of).

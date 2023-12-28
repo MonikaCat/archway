@@ -5,14 +5,14 @@ import (
 
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/archway-network/archway/app/upgrades"
-	upgrade_0_6 "github.com/archway-network/archway/app/upgrades/06"
-	upgrade1_0_0_rc_4 "github.com/archway-network/archway/app/upgrades/1_0_0_rc_4"
-	upgrade2_0_0 "github.com/archway-network/archway/app/upgrades/2_0_0"
-	upgrade3_0_0 "github.com/archway-network/archway/app/upgrades/3_0_0"
-	upgrade4_0_0 "github.com/archway-network/archway/app/upgrades/4_0_0"
-	upgrade4_0_2 "github.com/archway-network/archway/app/upgrades/4_0_2"
-	upgrade5_0_0 "github.com/archway-network/archway/app/upgrades/5_0_0"
+	"github.com/MonikaCat/archway/v5/app/upgrades"
+	upgrade_0_6 "github.com/MonikaCat/archway/v5/app/upgrades/06"
+	upgrade1_0_0_rc_4 "github.com/MonikaCat/archway/v5/app/upgrades/1_0_0_rc_4"
+	upgrade2_0_0 "github.com/MonikaCat/archway/v5/app/upgrades/2_0_0"
+	upgrade3_0_0 "github.com/MonikaCat/archway/v5/app/upgrades/3_0_0"
+	upgrade4_0_0 "github.com/MonikaCat/archway/v5/app/upgrades/4_0_0"
+	upgrade4_0_2 "github.com/MonikaCat/archway/v5/app/upgrades/4_0_2"
+	upgrade5_0_0 "github.com/MonikaCat/archway/v5/app/upgrades/5_0_0"
 )
 
 // UPGRADES

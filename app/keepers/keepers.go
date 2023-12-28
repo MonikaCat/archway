@@ -25,8 +25,8 @@ import (
 	ibctransferkeeper "github.com/cosmos/ibc-go/v7/modules/apps/transfer/keeper"
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"
 
-	rewardsKeeper "github.com/archway-network/archway/x/rewards/keeper"
-	trackingKeeper "github.com/archway-network/archway/x/tracking/keeper"
+	rewardsKeeper "github.com/MonikaCat/archway/v5/x/rewards/keeper"
+	trackingKeeper "github.com/MonikaCat/archway/v5/x/tracking/keeper"
 )
 
 type ArchwayKeepers struct {

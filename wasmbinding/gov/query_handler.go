@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/gov/types"
 	govTypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-	wasmTypes "github.com/archway-network/archway/wasmbinding/gov/types"
+	wasmTypes "github.com/MonikaCat/archway/v5/wasmbinding/gov/types"
 )
 
 // KeeperReaderExpected defines the x/gov keeper expected read operations.

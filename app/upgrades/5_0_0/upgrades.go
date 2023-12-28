@@ -25,9 +25,9 @@ import (
 	icahosttypes "github.com/cosmos/ibc-go/v7/modules/apps/27-interchain-accounts/host/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 
-	"github.com/archway-network/archway/app/keepers"
-	"github.com/archway-network/archway/app/upgrades"
-	rewardstypes "github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/app/keepers"
+	"github.com/MonikaCat/archway/v5/app/upgrades"
+	rewardstypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // This upgrade handler is used for all the current changes to the protocol

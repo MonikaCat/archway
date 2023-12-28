@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/pkg"
-	"github.com/archway-network/archway/x/rewards/mintbankkeeper"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	"github.com/MonikaCat/archway/v5/pkg"
+	"github.com/MonikaCat/archway/v5/x/rewards/mintbankkeeper"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 func TestMintBankKeeper(t *testing.T) {

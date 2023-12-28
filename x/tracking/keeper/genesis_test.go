@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/pkg/testutils"
-	"github.com/archway-network/archway/x/tracking/types"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	"github.com/MonikaCat/archway/v5/pkg/testutils"
+	"github.com/MonikaCat/archway/v5/x/tracking/types"
 )
 
 // TestGenesisImportExport check genesis import/export.

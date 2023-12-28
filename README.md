@@ -1,12 +1,12 @@
-![](https://github.com/archway-network/archway/blob/main/banner.png)
+![](https://github.com/MonikaCat/archway/v5/blob/main/banner.png)
 
 # Archway
 
-[![Version](https://img.shields.io/github/v/tag/archway-network/archway.svg?sort=semver&style=flat-square)](https://github.com/archway-network/archway/releases/latest)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue?style=flat-square&logo=go)](https://pkg.go.dev/github.com/archway-network/archway)
-[![Go Report Card](https://goreportcard.com/badge/github.com/archway-network/archway)](https://goreportcard.com/report/github.com/archway-network/archway)
+[![Version](https://img.shields.io/github/v/tag/archway-network/archway.svg?sort=semver&style=flat-square)](https://github.com/MonikaCat/archway/v5/releases/latest)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue?style=flat-square&logo=go)](https://pkg.go.dev/github.com/MonikaCat/archway/v5)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MonikaCat/archway/v5)](https://goreportcard.com/report/github.com/MonikaCat/archway/v5)
 [![codecov](https://codecov.io/gh/archway-network/archway/branch/master/graph/badge.svg)](https://codecov.io/gh/archway-network/archway)
-[![License:Apache-2.0](https://img.shields.io/github/license/archway-network/archway.svg?style=flat-square)](https://github.com/archway-network/archway/LICENSE)
+[![License:Apache-2.0](https://img.shields.io/github/license/archway-network/archway.svg?style=flat-square)](https://github.com/MonikaCat/archway/v5/LICENSE)
 
 The core implementation of the Archway protocol leverages the [Cosmos SDK](https://cosmos.network) and [CosmWasm](https://cosmwasm.com) to reward validators and creators for their contributions to the network.
 
@@ -31,7 +31,7 @@ The following software should be installed on the target system:
 
 ## Build from Source
 
-[Clone the repository](https://github.com/archway-network/archway), checkout the `main` branch and build:
+[Clone the repository](https://github.com/MonikaCat/archway/v5), checkout the `main` branch and build:
 
 ```sh
 cd archway

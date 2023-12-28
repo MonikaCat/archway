@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	archway "github.com/archway-network/archway/types"
+	archway "github.com/MonikaCat/archway/v5/types"
 
 	wasmdTypes "github.com/CosmWasm/wasmd/x/wasm/types"
 	abci "github.com/cometbft/cometbft/abci/types"
@@ -13,10 +13,10 @@ import (
 
 	voterTypes "github.com/archway-network/voter/src/types"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/pkg"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
-	trackingTypes "github.com/archway-network/archway/x/tracking/types"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	"github.com/MonikaCat/archway/v5/pkg"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
+	trackingTypes "github.com/MonikaCat/archway/v5/x/tracking/types"
 )
 
 // TestGasTrackingAndRewardsDistribution tests the whole x/tracking + x/rewards chain:

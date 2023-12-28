@@ -13,10 +13,10 @@ import (
 	ibcante "github.com/cosmos/ibc-go/v7/modules/core/ante"
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"
 
-	rewardsAnte "github.com/archway-network/archway/x/rewards/ante"
-	rewardsKeeper "github.com/archway-network/archway/x/rewards/keeper"
-	trackingAnte "github.com/archway-network/archway/x/tracking/ante"
-	trackingKeeper "github.com/archway-network/archway/x/tracking/keeper"
+	rewardsAnte "github.com/MonikaCat/archway/v5/x/rewards/ante"
+	rewardsKeeper "github.com/MonikaCat/archway/v5/x/rewards/keeper"
+	trackingAnte "github.com/MonikaCat/archway/v5/x/tracking/ante"
+	trackingKeeper "github.com/MonikaCat/archway/v5/x/tracking/keeper"
 )
 
 // HandlerOptions extend the SDK's AnteHandler options by requiring the IBC

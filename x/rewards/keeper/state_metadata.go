@@ -6,7 +6,7 @@ import (
 	storeTypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // ContractMetadataState provides access to the types.ContractMetadata objects storage operations.

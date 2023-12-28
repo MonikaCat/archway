@@ -9,9 +9,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govTypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/wasmbinding/gov"
-	govWbTypes "github.com/archway-network/archway/wasmbinding/gov/types"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	"github.com/MonikaCat/archway/v5/wasmbinding/gov"
+	govWbTypes "github.com/MonikaCat/archway/v5/wasmbinding/gov/types"
 )
 
 // TestGovWASMBindings tests the custom querier for the x/gov WASM bindings.

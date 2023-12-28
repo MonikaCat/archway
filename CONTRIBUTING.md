@@ -21,7 +21,7 @@ The following software should be installed on the target system:
 
 ### 1.2 Fork & Clone
 
-1. [Fork the Archway repository](https://github.com/archway-network/archway);
+1. [Fork the Archway repository](https://github.com/MonikaCat/archway/v5);
 2. [Sync your fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to keep it up to date;
 3. Clone your fork to an appropriate directory in your local environment;
 
@@ -54,7 +54,7 @@ For __CosmWasm__ and _the language that shall not be named_, please refer to the
 
 Public collaboration and coordination are driven via issues. For a brief overview of using GitHub Issues, [please read this](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart).
 
-1. [Find](https://github.com/archway-network/archway/issues) or [Open](https://github.com/archway-network/archway/issues/new) an issue;
+1. [Find](https://github.com/MonikaCat/archway/v5/issues) or [Open](https://github.com/MonikaCat/archway/v5/issues/new) an issue;
 2. __Engage__ in _constructive_ and _thoughful_ __discussion__ on the issue;
 3. __Coordinate__ with _other contributors_ on the issue;
 4. __Follow__ _GitHub best practices_ and the _guidelines_ in the issue templates;

@@ -8,8 +8,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/server"
 
-	"github.com/archway-network/archway/app/keepers"
-	"github.com/archway-network/archway/x/genmsg"
+	"github.com/MonikaCat/archway/v5/app/keepers"
+	"github.com/MonikaCat/archway/v5/x/genmsg"
 
 	autocliv1 "cosmossdk.io/api/cosmos/autocli/v1"
 	reflectionv1 "cosmossdk.io/api/cosmos/reflection/v1"
@@ -122,19 +122,19 @@ import (
 	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
 	"github.com/spf13/cast"
 
-	"github.com/archway-network/archway/wasmbinding"
-	"github.com/archway-network/archway/x/rewards"
-	rewardsKeeper "github.com/archway-network/archway/x/rewards/keeper"
-	"github.com/archway-network/archway/x/rewards/mintbankkeeper"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
-	"github.com/archway-network/archway/x/tracking"
-	trackingKeeper "github.com/archway-network/archway/x/tracking/keeper"
-	trackingTypes "github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v5/wasmbinding"
+	"github.com/MonikaCat/archway/v5/x/rewards"
+	rewardsKeeper "github.com/MonikaCat/archway/v5/x/rewards/keeper"
+	"github.com/MonikaCat/archway/v5/x/rewards/mintbankkeeper"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/x/tracking"
+	trackingKeeper "github.com/MonikaCat/archway/v5/x/tracking/keeper"
+	trackingTypes "github.com/MonikaCat/archway/v5/x/tracking/types"
 
 	"github.com/CosmWasm/wasmd/x/wasm"
 
-	archwayappparams "github.com/archway-network/archway/app/params"
-	archway "github.com/archway-network/archway/types"
+	archwayappparams "github.com/MonikaCat/archway/v5/app/params"
+	archway "github.com/MonikaCat/archway/v5/types"
 
 	// unnamed import of statik for swagger UI support
 	_ "github.com/cosmos/cosmos-sdk/client/docs/statik"

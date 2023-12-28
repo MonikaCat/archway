@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/archway-network/archway/app/keepers"
-	"github.com/archway-network/archway/app/upgrades"
+	"github.com/MonikaCat/archway/v5/app/keepers"
+	"github.com/MonikaCat/archway/v5/app/upgrades"
 )
 
 const Name = "v3.0.0"

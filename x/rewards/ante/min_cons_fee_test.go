@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/pkg/testutils"
-	"github.com/archway-network/archway/x/rewards/ante"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	"github.com/MonikaCat/archway/v5/pkg/testutils"
+	"github.com/MonikaCat/archway/v5/x/rewards/ante"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 func TestRewardsMinFeeAnteHandler(t *testing.T) {

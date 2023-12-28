@@ -11,8 +11,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkErrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/archway-network/archway/wasmbinding/rewards"
-	"github.com/archway-network/archway/wasmbinding/types"
+	"github.com/MonikaCat/archway/v5/wasmbinding/rewards"
+	"github.com/MonikaCat/archway/v5/wasmbinding/types"
 )
 
 var _ wasmKeeper.Messenger = MsgDispatcher{}

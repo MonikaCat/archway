@@ -11,7 +11,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/archway-network/archway/app"
+	"github.com/MonikaCat/archway/v5/app"
 )
 
 func main() {

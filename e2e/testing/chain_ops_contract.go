@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil" //nolint: staticcheck
 
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 
 	wasmdTypes "github.com/CosmWasm/wasmd/x/wasm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

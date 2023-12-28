@@ -19,9 +19,9 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/archway-network/archway/x/tracking/client/cli"
-	"github.com/archway-network/archway/x/tracking/keeper"
-	"github.com/archway-network/archway/x/tracking/types"
+	"github.com/MonikaCat/archway/v5/x/tracking/client/cli"
+	"github.com/MonikaCat/archway/v5/x/tracking/keeper"
+	"github.com/MonikaCat/archway/v5/x/tracking/types"
 )
 
 var (

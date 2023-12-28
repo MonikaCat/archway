@@ -1,5 +1,5 @@
 // Package proto is a partial copy of the generated protocol buffer code from the Archway repo.
-// Repo link: https://github.com/archway-network/archway
+// Repo link: https://github.com/MonikaCat/archway/v5
 // Original source could not be used "as is" because it contains fmt related code (not supported by TinyGo)
 // and because it adds a lot of extra dependencies for this repo.
 // This should be moved to the Archway CW SDK. Added here as an example of how to use Stargate raw queries.

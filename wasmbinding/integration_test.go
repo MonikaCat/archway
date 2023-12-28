@@ -12,7 +12,7 @@ import (
 	sdkGov "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	"github.com/stretchr/testify/require"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
 )
 
 func TestGovQuerier(t *testing.T) {

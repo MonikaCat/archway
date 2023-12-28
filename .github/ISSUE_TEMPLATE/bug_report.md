@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 **Security Vulnerabilities**
-_Please do not report security vulnerabilities as public issues!_ Please refer to our [Security Policy](https://github.com/archway-network/archway/SECURITY.md) for details pertaining to private vulnerability reporting.
+_Please do not report security vulnerabilities as public issues!_ Please refer to our [Security Policy](https://github.com/MonikaCat/archway/v5/SECURITY.md) for details pertaining to private vulnerability reporting.
 
 **System Information**
 Archway Version: 

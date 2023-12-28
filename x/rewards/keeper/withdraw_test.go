@@ -3,7 +3,7 @@ package keeper_test
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // TestWithdrawRewardsByLimit tests the withdraw operation using record limit mode.

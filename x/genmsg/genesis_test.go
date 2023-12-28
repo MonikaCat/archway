@@ -11,7 +11,7 @@ import (
 	"github.com/cosmos/gogoproto/proto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/archway-network/archway/x/genmsg/types"
+	"github.com/MonikaCat/archway/v5/x/genmsg/types"
 )
 
 type mockRouter struct {

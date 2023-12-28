@@ -5,8 +5,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 
-	"github.com/archway-network/archway/pkg"
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/pkg"
+	"github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // GetQueryCmd builds query command group for the module.

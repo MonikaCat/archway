@@ -3,8 +3,8 @@ package wasmbinding
 import (
 	wasmKeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 
-	"github.com/archway-network/archway/wasmbinding/gov"
-	"github.com/archway-network/archway/wasmbinding/rewards"
+	"github.com/MonikaCat/archway/v5/wasmbinding/gov"
+	"github.com/MonikaCat/archway/v5/wasmbinding/rewards"
 )
 
 // RewardsKeeperExpected is the expected x/rewards keeper.

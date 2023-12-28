@@ -11,13 +11,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	archPkg "github.com/archway-network/archway/pkg"
-	"github.com/archway-network/archway/pkg/testutils"
-	"github.com/archway-network/archway/wasmbinding/pkg"
-	"github.com/archway-network/archway/wasmbinding/rewards"
-	rewardsWbTypes "github.com/archway-network/archway/wasmbinding/rewards/types"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	archPkg "github.com/MonikaCat/archway/v5/pkg"
+	"github.com/MonikaCat/archway/v5/pkg/testutils"
+	"github.com/MonikaCat/archway/v5/wasmbinding/pkg"
+	"github.com/MonikaCat/archway/v5/wasmbinding/rewards"
+	rewardsWbTypes "github.com/MonikaCat/archway/v5/wasmbinding/rewards/types"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // TestRewardsWASMBindings tests the custom querier and custom message handler for the x/rewards WASM bindings.

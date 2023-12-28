@@ -15,7 +15,7 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/archway-network/archway/x/genmsg/types"
+	"github.com/MonikaCat/archway/v5/x/genmsg/types"
 )
 
 const (

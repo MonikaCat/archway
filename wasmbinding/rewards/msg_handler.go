@@ -6,8 +6,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	rewardsMsgTypes "github.com/archway-network/archway/wasmbinding/rewards/types"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	rewardsMsgTypes "github.com/MonikaCat/archway/v5/wasmbinding/rewards/types"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // KeeperWriterExpected defines the x/rewards keeper expected write operations.

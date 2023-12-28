@@ -10,10 +10,10 @@ import (
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/archway-network/archway/app/keepers"
-	"github.com/archway-network/archway/app/upgrades"
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/app/keepers"
+	"github.com/MonikaCat/archway/v5/app/upgrades"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 func TestUpgrades(t *testing.T) {

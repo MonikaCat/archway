@@ -5,8 +5,8 @@ import (
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/archway-network/archway/x/rewards/exported"
-	"github.com/archway-network/archway/x/rewards/types"
+	"github.com/MonikaCat/archway/v5/x/rewards/exported"
+	"github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // MigrateStore migrates the x/rewards module state from the consensus version 1 to

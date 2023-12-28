@@ -10,10 +10,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	e2eTesting "github.com/archway-network/archway/e2e/testing"
-	"github.com/archway-network/archway/pkg/testutils"
-	"github.com/archway-network/archway/x/rewards/keeper"
-	rewardstypes "github.com/archway-network/archway/x/rewards/types"
+	e2eTesting "github.com/MonikaCat/archway/v5/e2e/testing"
+	"github.com/MonikaCat/archway/v5/pkg/testutils"
+	"github.com/MonikaCat/archway/v5/x/rewards/keeper"
+	rewardstypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 func (s *KeeperTestSuite) TestMsgServer_SetContractMetadata() {

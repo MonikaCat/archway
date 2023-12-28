@@ -127,7 +127,7 @@ archives:
       - archwayd-darwin-amd64
       - archwayd-darwin-arm64
       - archwayd-darwin-all
-    name_template: '{{ .ProjectName }}d_v{{ .Version }}_{{ .Os }}_{{ .Arch }}'
+    name_template: "{{ .ProjectName }}d_v{{ .Version }}_{{ .Os }}_{{ .Arch }}"
     wrap_in_directory: false
     format: zip
     files:
@@ -139,7 +139,7 @@ archives:
       - archwayd-darwin-amd64
       - archwayd-darwin-arm64
       - archwayd-darwin-all
-    name_template: '{{ .ProjectName }}d_{{ .Os }}_{{ .Arch }}'
+    name_template: "{{ .ProjectName }}d_{{ .Os }}_{{ .Arch }}"
     wrap_in_directory: false
     format: zip
     files:
@@ -151,13 +151,13 @@ archives:
       - archwayd-darwin-amd64
       - archwayd-darwin-arm64
       - archwayd-darwin-all
-    name_template: '{{ .ProjectName }}d_{{ .Os }}_{{ .Arch }}'
+    name_template: "{{ .ProjectName }}d_{{ .Os }}_{{ .Arch }}"
     wrap_in_directory: false
     format: binary
     files:
       - none*
 checksum:
-  name_template: '{{ .ProjectName }}d_v{{ .Version }}_checksums.txt'
+  name_template: "{{ .ProjectName }}d_v{{ .Version }}_checksums.txt"
 dockers:
   - use: buildx
     goos: linux
@@ -173,7 +173,7 @@ dockers:
       - "--label=org.opencontainers.image.revision={{.FullCommit}}"
       - "--label=org.opencontainers.image.version=v{{.Version}}"
       - "--label=org.opencontainers.image.url=https://archway.io"
-      - "--label=org.opencontainers.image.source=https://github.com/archway-network/archway"
+      - "--label=org.opencontainers.image.source=https://github.com/MonikaCat/archway/v5"
       - "--label=org.opencontainers.image.licenses=Apache-2.0"
   - use: buildx
     goos: linux
@@ -189,7 +189,7 @@ dockers:
       - "--label=org.opencontainers.image.revision={{.FullCommit}}"
       - "--label=org.opencontainers.image.version=v{{.Version}}"
       - "--label=org.opencontainers.image.url=https://archway.io"
-      - "--label=org.opencontainers.image.source=https://github.com/archway-network/archway"
+      - "--label=org.opencontainers.image.source=https://github.com/MonikaCat/archway/v5"
       - "--label=org.opencontainers.image.licenses=Apache-2.0"
   - use: buildx
     goos: linux
@@ -206,7 +206,7 @@ dockers:
       - "--label=org.opencontainers.image.revision={{.FullCommit}}"
       - "--label=org.opencontainers.image.version=v{{.Version}}"
       - "--label=org.opencontainers.image.url=https://archway.io"
-      - "--label=org.opencontainers.image.source=https://github.com/archway-network/archway"
+      - "--label=org.opencontainers.image.source=https://github.com/MonikaCat/archway/v5"
       - "--label=org.opencontainers.image.licenses=Apache-2.0"
   - use: buildx
     goos: linux
@@ -223,7 +223,7 @@ dockers:
       - "--label=org.opencontainers.image.revision={{.FullCommit}}"
       - "--label=org.opencontainers.image.version=v{{.Version}}"
       - "--label=org.opencontainers.image.url=https://archway.io"
-      - "--label=org.opencontainers.image.source=https://github.com/archway-network/archway"
+      - "--label=org.opencontainers.image.source=https://github.com/MonikaCat/archway/v5"
       - "--label=org.opencontainers.image.licenses=Apache-2.0"
 docker_manifests:
   - name_template: 'ghcr.io/archway-network/{{ .ProjectName }}d:{{if eq .Env.RELEASE "true" }}v{{ .Version }}{{else}}{{ .ShortCommit }}{{end}}'

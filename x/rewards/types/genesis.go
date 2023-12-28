@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/archway-network/archway/pkg"
+	"github.com/MonikaCat/archway/v5/pkg"
 )
 
 // NewGenesisState creates a new GenesisState object.

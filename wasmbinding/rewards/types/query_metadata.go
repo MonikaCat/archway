@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	rewardsTypes "github.com/archway-network/archway/x/rewards/types"
+	rewardsTypes "github.com/MonikaCat/archway/v5/x/rewards/types"
 )
 
 // ContractMetadataRequest is the Query.Metadata request.
